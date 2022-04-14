@@ -1,0 +1,26 @@
+img{
+    max-width: 500px;
+    max-height: 600px;
+}
+
+body{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
+
+  .column {
+    float: left;
+    width: 30%;
+    margin-left: 50px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #right{
+      margin-top: 60px;
+  }
